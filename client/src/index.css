@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+/*从 Google Fonts 导入了 'Inter' 字体的不同权重（默认、600、700）。*/
+/*'display=swap' 参数确保在字体加载过程中使用后备字体，字体加载完成后再替换为目标字体，保证较好的用户体验。*/
+
+/*html 选择器选择整个 HTML 文档的根元素 <html>。*/
+html,
+
+/*body 选择器选择 HTML 文档中的主体内容元素 <body>。*/
+body,
+
+/*#root 选择器选择具有 id="root" 属性的 HTML 元素（通常是应用程序中的根元素）。*/
+#root,
+
+/*.app 是一个类选择器，用于选择具有 class="app" 属性的 HTML 元素。*/
+/*类选择器以 . 开头，用于选择具有指定类的所有元素。*/
+.app{
+    /*高度和宽度：height: 100%; 和 width: 100%; 确保这些元素占满整个视窗。*/
+    height: 100%;
+    width: 100%;
+
+    /*字体：font-family: 'Inter', sans-serif; 将字体设置为 'Inter'，如果不可用则使用 sans-serif。*/
+    font-family: 'Inter', sans-serif;
+
+    /*背景颜色：background-color: #1f2026; 设置背景颜色为深灰色。*/
+    background-color: #1f2026
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #242427;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #48494e;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #2a2b2f;
+}

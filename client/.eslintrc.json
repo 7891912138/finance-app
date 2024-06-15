@@ -1,0 +1,4 @@
+{
+  "extends": "react-app"
+}
+//"extends": "react-app" 表示这个项目的 ESLint 配置将会继承自 "react-app" 预设配置。
